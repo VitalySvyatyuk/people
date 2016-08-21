@@ -1,0 +1,90 @@
+{
+	"peope": [{
+			"name": "John Adams",
+			"avatar": "avatar01.png",
+			"rating": 102,
+			"followed": false,
+			"Ideas": 0,
+			"Following": 50,
+			"Followers": 0
+		},
+		{
+			"name": "Kevin Malcolm",
+			"avatar": "avatar02.png"
+			"rating": 1472,
+			"followed": false,
+			"Ideas": 20,
+			"Following": 19,
+			"Followers": 26	
+		},
+		{
+			"name": "John Adams",
+			"avatar": "avatar01.png",
+			"rating": 102,
+			"Ideas": 0,
+			"Following": 50,
+			"Followers": 0
+		},
+		{
+						"name": "John Adams",
+			"avatar": "avatar01.png",
+			"rating": 102,
+			"Ideas": 0,
+			"Following": 50,
+			"Followers": 0
+		},
+		{
+						"name": "John Adams",
+			"avatar": "avatar01.png",
+			"rating": 102,
+			"Ideas": 0,
+			"Following": 50,
+			"Followers": 0
+		},
+		{
+						"name": "John Adams",
+			"avatar": "avatar01.png",
+			"rating": 102,
+			"Ideas": 0,
+			"Following": 50,
+			"Followers": 0
+		},
+		{
+						"name": "John Adams",
+			"avatar": "avatar01.png",
+			"rating": 102,
+			"Ideas": 0,
+			"Following": 50,
+			"Followers": 0
+		},
+		{
+						"name": "John Adams",
+			"avatar": "avatar01.png",
+			"rating": 102,
+			"Ideas": 0,
+			"Following": 50,
+			"Followers": 0
+		},
+		{
+						"name": "John Adams",
+			"avatar": "avatar01.png",
+			"rating": 102,
+			"Ideas": 0,
+			"Following": 50,
+			"Followers": 0
+		},
+		{
+						"name": "John Adams",
+			"avatar": "avatar01.png",
+			"rating": 102,
+			"Ideas": 0,
+			"Following": 50,
+			"Followers": 0
+		},
+		{
+
+
+
+
+	]
+}
