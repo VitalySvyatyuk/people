@@ -1,4 +1,4 @@
-$.getJSON("file:///home/vitaly/work/TradingView/people/people.json", function(data) {
+$.getJSON("http://localhost:8888/people.json", function(data) {
     var items = [];
     $.each(data, function(key, value) {
         items.push("<tr");
