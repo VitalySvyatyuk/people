@@ -1,364 +1,362 @@
-{
-	"peope": [
-		{
-			"name": "John Adams",
-			"avatar": "avatar01.png",
-			"rating": 102,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 50,
-			"Followers": 0
-		},
-		{
-			"name": "Kevin Malcolm",
-			"avatar": "avatar02.png",
-			"rating": 1472,
-			"followed": false,
-			"Ideas": 20,
-			"Following": 19,
-			"Followers": 26	
-		},
-		{
-			"name": "James Madison",
-			"avatar": "avatar03.png",
-			"rating": 32,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 2,
-			"Followers": 0
-		},
-		{
-			"name": "James Monroe",
-			"avatar": "avatar04.png",
-			"rating": 3086,
-			"followed": true,
-			"Ideas": 53,
-			"Following": 1059,
-			"Followers": 45
-		},
-		{
-			"name": "Andrew Jackson",
-			"avatar": "avatar05.png",
-			"rating": 102,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 50,
-			"Followers": 0
-		},
-		{
-			"name": "Vladimir Lenin",
-			"avatar": "avatar06.png",
-			"rating": 32,
-			"followed": true,
-			"Ideas": 100,
-			"Following": 2,
-			"Followers": 1000
-		},
-		{
-			"name": "William Wallace",
-			"avatar": "avatar07.png",
-			"rating": 2200,
-			"followed": false,
-			"Ideas": 1,
-			"Following": 1,
-			"Followers": 3000
-		},
-		{
-			"name": "Nadezhda Savchenko",
-			"avatar": "avatar08.png",
-			"rating": 29,
-			"followed": false,
-			"Ideas": 4,
-			"Following": 0,
-			"Followers": 10
-		},
-		{
-			"name": "Bobby Ray",
-			"avatar": "avatar09.png",
-			"rating": 44,
-			"followed": true,
-			"Ideas": 2,
-			"Following": 10,
-			"Followers": 90
-		},
-		{
-			"name": "Silent Witness",
-			"avatar": "avatar10.png",
-			"rating": 1002,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 0,
-			"Followers": 560
-		},
-		{
-			"name": "John Adams 1",
-			"avatar": "avatar01.png",
-			"rating": 102,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 50,
-			"Followers": 0
-		},
-		{
-			"name": "Kevin Malcolm 1",
-			"avatar": "avatar02.png",
-			"rating": 1472,
-			"followed": false,
-			"Ideas": 20,
-			"Following": 19,
-			"Followers": 26	
-		},
-		{
-			"name": "James Madison 1",
-			"avatar": "avatar03.png",
-			"rating": 32,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 2,
-			"Followers": 0
-		},
-		{
-			"name": "James Monroe 1",
-			"avatar": "avatar04.png",
-			"rating": 3086,
-			"followed": true,
-			"Ideas": 53,
-			"Following": 1059,
-			"Followers": 45
-		},
-		{
-			"name": "Andrew Jackson 1",
-			"avatar": "avatar05.png",
-			"rating": 102,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 50,
-			"Followers": 0
-		},
-		{
-			"name": "Vladimir Lenin 1",
-			"avatar": "avatar06.png",
-			"rating": 32,
-			"followed": true,
-			"Ideas": 100,
-			"Following": 2,
-			"Followers": 1000
-		},
-		{
-			"name": "William Wallace 1",
-			"avatar": "avatar07.png",
-			"rating": 2200,
-			"followed": false,
-			"Ideas": 1,
-			"Following": 1,
-			"Followers": 3000
-		},
-		{
-			"name": "Nadezhda Savchenko 1",
-			"avatar": "avatar08.png",
-			"rating": 29,
-			"followed": false,
-			"Ideas": 4,
-			"Following": 0,
-			"Followers": 10
-		},
-		{
-			"name": "Bobby Ray 1",
-			"avatar": "avatar09.png",
-			"rating": 44,
-			"followed": true,
-			"Ideas": 2,
-			"Following": 10,
-			"Followers": 90
-		},
-		{
-			"name": "Silent Witness 1",
-			"avatar": "avatar10.png",
-			"rating": 1002,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 0,
-			"Followers": 560
-		},
-		{
-			"name": "John Adams 2",
-			"avatar": "avatar01.png",
-			"rating": 102,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 50,
-			"Followers": 0
-		},
-		{
-			"name": "Kevin Malcolm 2",
-			"avatar": "avatar02.png",
-			"rating": 1472,
-			"followed": false,
-			"Ideas": 20,
-			"Following": 19,
-			"Followers": 26	
-		},
-		{
-			"name": "James Madison 2",
-			"avatar": "avatar03.png",
-			"rating": 32,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 2,
-			"Followers": 0
-		},
-		{
-			"name": "James Monroe 2",
-			"avatar": "avatar04.png",
-			"rating": 3086,
-			"followed": true,
-			"Ideas": 53,
-			"Following": 1059,
-			"Followers": 45
-		},
-		{
-			"name": "Andrew Jackson 2",
-			"avatar": "avatar05.png",
-			"rating": 102,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 50,
-			"Followers": 0
-		},
-		{
-			"name": "Vladimir Lenin 2",
-			"avatar": "avatar06.png",
-			"rating": 32,
-			"followed": true,
-			"Ideas": 100,
-			"Following": 2,
-			"Followers": 1000
-		},
-		{
-			"name": "William Wallace 2",
-			"avatar": "avatar07.png",
-			"rating": 2200,
-			"followed": false,
-			"Ideas": 1,
-			"Following": 1,
-			"Followers": 3000
-		},
-		{
-			"name": "Nadezhda Savchenko 2",
-			"avatar": "avatar08.png",
-			"rating": 29,
-			"followed": false,
-			"Ideas": 4,
-			"Following": 0,
-			"Followers": 10
-		},
-		{
-			"name": "Bobby Ray 2",
-			"avatar": "avatar09.png",
-			"rating": 44,
-			"followed": true,
-			"Ideas": 2,
-			"Following": 10,
-			"Followers": 90
-		},
-		{
-			"name": "Silent Witness 2",
-			"avatar": "avatar10.png",
-			"rating": 1002,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 0,
-			"Followers": 560
-		},
-		{
-			"name": "John Adams 3",
-			"avatar": "avatar01.png",
-			"rating": 102,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 50,
-			"Followers": 0
-		},
-		{
-			"name": "Kevin Malcolm 3",
-			"avatar": "avatar02.png",
-			"rating": 1472,
-			"followed": false,
-			"Ideas": 20,
-			"Following": 19,
-			"Followers": 26	
-		},
-		{
-			"name": "James Madison 3",
-			"avatar": "avatar03.png",
-			"rating": 32,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 2,
-			"Followers": 0
-		},
-		{
-			"name": "James Monroe 3",
-			"avatar": "avatar04.png",
-			"rating": 3086,
-			"followed": true,
-			"Ideas": 53,
-			"Following": 1059,
-			"Followers": 45
-		},
-		{
-			"name": "Andrew Jackson 3",
-			"avatar": "avatar05.png",
-			"rating": 102,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 50,
-			"Followers": 0
-		},
-		{
-			"name": "Vladimir Lenin 3",
-			"avatar": "avatar06.png",
-			"rating": 32,
-			"followed": true,
-			"Ideas": 100,
-			"Following": 2,
-			"Followers": 1000
-		},
-		{
-			"name": "William Wallace 3",
-			"avatar": "avatar07.png",
-			"rating": 2200,
-			"followed": false,
-			"Ideas": 1,
-			"Following": 1,
-			"Followers": 3000
-		},
-		{
-			"name": "Nadezhda Savchenko 3",
-			"avatar": "avatar08.png",
-			"rating": 29,
-			"followed": false,
-			"Ideas": 4,
-			"Following": 0,
-			"Followers": 10
-		},
-		{
-			"name": "Bobby Ray 3",
-			"avatar": "avatar09.png",
-			"rating": 44,
-			"followed": true,
-			"Ideas": 2,
-			"Following": 10,
-			"Followers": 90
-		},
-		{
-			"name": "Silent Witness 3",
-			"avatar": "avatar10.png",
-			"rating": 1002,
-			"followed": false,
-			"Ideas": 0,
-			"Following": 0,
-			"Followers": 560
-		}
-	]
-}
+[
+	{
+		"name": "John Adams",
+		"avatar": "avatar01.png",
+		"rating": 102,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 50,
+		"Followers": 0
+	},
+	{
+		"name": "Kevin Malcolm",
+		"avatar": "avatar02.png",
+		"rating": 1472,
+		"followed": false,
+		"Ideas": 20,
+		"Following": 19,
+		"Followers": 26	
+	},
+	{
+		"name": "James Madison",
+		"avatar": "avatar03.png",
+		"rating": 32,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 2,
+		"Followers": 0
+	},
+	{
+		"name": "James Monroe",
+		"avatar": "avatar04.png",
+		"rating": 3086,
+		"followed": true,
+		"Ideas": 53,
+		"Following": 1059,
+		"Followers": 45
+	},
+	{
+		"name": "Andrew Jackson",
+		"avatar": "avatar05.png",
+		"rating": 102,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 50,
+		"Followers": 0
+	},
+	{
+		"name": "Vladimir Lenin",
+		"avatar": "avatar06.png",
+		"rating": 32,
+		"followed": true,
+		"Ideas": 100,
+		"Following": 2,
+		"Followers": 1000
+	},
+	{
+		"name": "William Wallace",
+		"avatar": "avatar07.png",
+		"rating": 2200,
+		"followed": false,
+		"Ideas": 1,
+		"Following": 1,
+		"Followers": 3000
+	},
+	{
+		"name": "Nadezhda Savchenko",
+		"avatar": "avatar08.png",
+		"rating": 29,
+		"followed": false,
+		"Ideas": 4,
+		"Following": 0,
+		"Followers": 10
+	},
+	{
+		"name": "Bobby Ray",
+		"avatar": "avatar09.png",
+		"rating": 44,
+		"followed": true,
+		"Ideas": 2,
+		"Following": 10,
+		"Followers": 90
+	},
+	{
+		"name": "Silent Witness",
+		"avatar": "avatar10.png",
+		"rating": 1002,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 0,
+		"Followers": 560
+	},
+	{
+		"name": "John Adams 1",
+		"avatar": "avatar01.png",
+		"rating": 102,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 50,
+		"Followers": 0
+	},
+	{
+		"name": "Kevin Malcolm 1",
+		"avatar": "avatar02.png",
+		"rating": 1472,
+		"followed": false,
+		"Ideas": 20,
+		"Following": 19,
+		"Followers": 26	
+	},
+	{
+		"name": "James Madison 1",
+		"avatar": "avatar03.png",
+		"rating": 32,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 2,
+		"Followers": 0
+	},
+	{
+		"name": "James Monroe 1",
+		"avatar": "avatar04.png",
+		"rating": 3086,
+		"followed": true,
+		"Ideas": 53,
+		"Following": 1059,
+		"Followers": 45
+	},
+	{
+		"name": "Andrew Jackson 1",
+		"avatar": "avatar05.png",
+		"rating": 102,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 50,
+		"Followers": 0
+	},
+	{
+		"name": "Vladimir Lenin 1",
+		"avatar": "avatar06.png",
+		"rating": 32,
+		"followed": true,
+		"Ideas": 100,
+		"Following": 2,
+		"Followers": 1000
+	},
+	{
+		"name": "William Wallace 1",
+		"avatar": "avatar07.png",
+		"rating": 2200,
+		"followed": false,
+		"Ideas": 1,
+		"Following": 1,
+		"Followers": 3000
+	},
+	{
+		"name": "Nadezhda Savchenko 1",
+		"avatar": "avatar08.png",
+		"rating": 29,
+		"followed": false,
+		"Ideas": 4,
+		"Following": 0,
+		"Followers": 10
+	},
+	{
+		"name": "Bobby Ray 1",
+		"avatar": "avatar09.png",
+		"rating": 44,
+		"followed": true,
+		"Ideas": 2,
+		"Following": 10,
+		"Followers": 90
+	},
+	{
+		"name": "Silent Witness 1",
+		"avatar": "avatar10.png",
+		"rating": 1002,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 0,
+		"Followers": 560
+	},
+	{
+		"name": "John Adams 2",
+		"avatar": "avatar01.png",
+		"rating": 102,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 50,
+		"Followers": 0
+	},
+	{
+		"name": "Kevin Malcolm 2",
+		"avatar": "avatar02.png",
+		"rating": 1472,
+		"followed": false,
+		"Ideas": 20,
+		"Following": 19,
+		"Followers": 26	
+	},
+	{
+		"name": "James Madison 2",
+		"avatar": "avatar03.png",
+		"rating": 32,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 2,
+		"Followers": 0
+	},
+	{
+		"name": "James Monroe 2",
+		"avatar": "avatar04.png",
+		"rating": 3086,
+		"followed": true,
+		"Ideas": 53,
+		"Following": 1059,
+		"Followers": 45
+	},
+	{
+		"name": "Andrew Jackson 2",
+		"avatar": "avatar05.png",
+		"rating": 102,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 50,
+		"Followers": 0
+	},
+	{
+		"name": "Vladimir Lenin 2",
+		"avatar": "avatar06.png",
+		"rating": 32,
+		"followed": true,
+		"Ideas": 100,
+		"Following": 2,
+		"Followers": 1000
+	},
+	{
+		"name": "William Wallace 2",
+		"avatar": "avatar07.png",
+		"rating": 2200,
+		"followed": false,
+		"Ideas": 1,
+		"Following": 1,
+		"Followers": 3000
+	},
+	{
+		"name": "Nadezhda Savchenko 2",
+		"avatar": "avatar08.png",
+		"rating": 29,
+		"followed": false,
+		"Ideas": 4,
+		"Following": 0,
+		"Followers": 10
+	},
+	{
+		"name": "Bobby Ray 2",
+		"avatar": "avatar09.png",
+		"rating": 44,
+		"followed": true,
+		"Ideas": 2,
+		"Following": 10,
+		"Followers": 90
+	},
+	{
+		"name": "Silent Witness 2",
+		"avatar": "avatar10.png",
+		"rating": 1002,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 0,
+		"Followers": 560
+	},
+	{
+		"name": "John Adams 3",
+		"avatar": "avatar01.png",
+		"rating": 102,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 50,
+		"Followers": 0
+	},
+	{
+		"name": "Kevin Malcolm 3",
+		"avatar": "avatar02.png",
+		"rating": 1472,
+		"followed": false,
+		"Ideas": 20,
+		"Following": 19,
+		"Followers": 26	
+	},
+	{
+		"name": "James Madison 3",
+		"avatar": "avatar03.png",
+		"rating": 32,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 2,
+		"Followers": 0
+	},
+	{
+		"name": "James Monroe 3",
+		"avatar": "avatar04.png",
+		"rating": 3086,
+		"followed": true,
+		"Ideas": 53,
+		"Following": 1059,
+		"Followers": 45
+	},
+	{
+		"name": "Andrew Jackson 3",
+		"avatar": "avatar05.png",
+		"rating": 102,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 50,
+		"Followers": 0
+	},
+	{
+		"name": "Vladimir Lenin 3",
+		"avatar": "avatar06.png",
+		"rating": 32,
+		"followed": true,
+		"Ideas": 100,
+		"Following": 2,
+		"Followers": 1000
+	},
+	{
+		"name": "William Wallace 3",
+		"avatar": "avatar07.png",
+		"rating": 2200,
+		"followed": false,
+		"Ideas": 1,
+		"Following": 1,
+		"Followers": 3000
+	},
+	{
+		"name": "Nadezhda Savchenko 3",
+		"avatar": "avatar08.png",
+		"rating": 29,
+		"followed": false,
+		"Ideas": 4,
+		"Following": 0,
+		"Followers": 10
+	},
+	{
+		"name": "Bobby Ray 3",
+		"avatar": "avatar09.png",
+		"rating": 44,
+		"followed": true,
+		"Ideas": 2,
+		"Following": 10,
+		"Followers": 90
+	},
+	{
+		"name": "Silent Witness 3",
+		"avatar": "avatar10.png",
+		"rating": 1002,
+		"followed": false,
+		"Ideas": 0,
+		"Following": 0,
+		"Followers": 560
+	}
+]

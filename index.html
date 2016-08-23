@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html>
- 	<meta charset="UTF-8"> 
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
 <head>
+  <meta charset="UTF-8"> 
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 	<title>People</title>
 </head>
 <body>
+<div class="container">
+  <button class="butt followbutton">Follow</button>
+  <button class="butt unfollowbutton">Unfollow</button>
+  </br>
+  <img src="img/people.png">
+  <span class="tablefont">PEOPLE</span>
+  <table id="example" class="table table-striped table-condensed" cellspacing="0" width="100%">
+    <thead>
+    <tr>
+      <th class="col-1"></th>
+      <th class="col-2"></th>
+      <th class="col-3">Ideas</th>
+      <th class="col-3">Following</th>
+      <th class="col-3">Followers</th>
+    </tr>
+    </thead>
+  </table>
 
-
-<table id="example" class="table table-bordered" cellspacing="0" width="100%">
-  <thead>
-  <tr>
-    <th>name</th>
-    <th>avatar</th>
-    <th>rating</th>
-    <th>followed</th>
-    <th>Ideas</th>
-    <th>Following</th>
-    <th>Followers</th>
-  </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-
-
+</div>
 </body>
 </html>
 

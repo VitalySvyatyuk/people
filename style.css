@@ -1,2 +1,79 @@
 /* color of table header - ecf0f3 */
 /* background color - f7f9fa */
+
+body {
+    background-color: #f7f9fa;
+}
+
+.container {
+    margin-top: 16px;
+}
+
+.butt {
+    border-radius: 7px 7px 7px 7px;
+    border-width: 0px;
+    width: 60px;
+    height: 14px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    vertical-align: top;
+}
+
+.followbutton {
+    background-color: #a4c574;
+}
+
+.unfollowbutton {
+    background-color: #ae323b;
+}
+
+.tablefont {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.namefont {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+table {
+    margin-top: 5px;
+    line-height: 1.42857143px;
+    border-color: #ddd;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #fff;
+}
+
+table thead {
+    background-color: #ecf0f3;
+}
+
+table th {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.table>thead>tr>th {
+    border-bottom: 1.42857143px solid #ddd;
+    
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.col-1 {
+    width: 4%;
+}
+.col-2 {
+    width: 36%;
+}
+.col-3 {
+    width: 20%;
+}
