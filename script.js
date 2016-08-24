@@ -1,3 +1,4 @@
+// Загрузка данных из файла json
 $.ajax({
     type: 'GET',
     url: 'http://localhost:8888/people.json',
