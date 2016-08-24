@@ -1,41 +1,149 @@
-$.getJSON("http://localhost:8888/people.json", function(data) {
-    var items = [];
-    $.each(data, function(key, value) {
+// $.getJSON("http://localhost:8888/people.json", function(data) {
+//     var items = [];
+//     $.each(data, function(key, value) {
+//         if (value.followed) {
+//             var follow = "remove.png";
+//             var imgclass = "unfollow";
+//         } else {
+//             var follow = "add.png";
+//             var imgclass = "follow";
+//         };
 
-        if (value.followed) {
-            var follow = "remove.png"
-        } else {
-            var follow = "add.png"
-        };
+//         items.push("<tr id='"+key+"'>");
+//         items.push("<td><img src='/img/"+value.avatar+"'></td>");
+//         items.push("<td>"
+//             + "<a href='#' class='namefont'>"+value.name+"</a>"
+//             + "<span> </span>"
+//             + "<img src='img/"+follow+"' class='"+imgclass+"'>"
+//             + "</br>"
+//             + "<img src='img/rating.png'>"
+//             + "<span> </span>"
+//             + "<span class='tablefont'>"+value.rating+"</span>"      
+//             + "</td>");
+//         items.push("<td class='tablefont'>"+value.Ideas+"</td>");
+//         items.push("<td class='tablefont'>"+value.Following+"</td>");
+//         items.push("<td class='tablefont'>"+value.Followers+"</td>");
+//         items.push("</tr>");
+//     });
 
-        items.push("<tr>");
-        items.push("<td id="+key+"><img src='/img/"+value.avatar+"'></td>");
-        items.push("<td id="+key+">"
-            + "<a href='#' class='namefont'>"+value.name+"</a>"
-            + "<span> </span>"
-            + "<img src='img/"+follow+"' class='follow'>"
-            + "</br>"
-            + "<img src='img/rating.png'>"
-            + "<span> </span>"
-            + "<span class='tablefont'>"+value.rating+"</span>"      
-            + "</td>");
-        items.push("<td id="+key+" class='tablefont'>"+value.Ideas+"</td>");
-        items.push("<td id="+key+" class='tablefont'>"+value.Following+"</td>");
-        items.push("<td id="+key+" class='tablefont'>"+value.Followers+"</td>");
-        items.push("</tr>");
-    });
+//     $("<tbody/>", {html: items.join("")}).appendTo("table");
 
-    $("<tbody/>", {html: items.join("")}).appendTo("table");
+    $.ajax({
+        type: 'GET',
+        url: 'http://localhost:8888/people.json',
+        success: function(data) {
+            var items = [];
+            var n = 1;
+            var data1 = [];
+            $.each(data, function(key, value) {
+                data1.push(value);
+                if (key % 11 == 0) {
+                    console.log(data1);
+                } else {
+                    var data + "n" = [];
+                }
+
+            })
+
+            $.each(data, function(key, value) {
+                if (value.followed) {
+                    var follow = "remove.png";
+                    var imgclass = "unfollow";
+                } else {
+                    var follow = "add.png";
+                    var imgclass = "follow";
+                };
+
+                items.push("<tr>");
+                items.push("<td><img src='/img/"+value.avatar+"'></td>");
+                items.push("<td>"
+                    + "<a href='#' class='namefont'>"+value.name+"</a>"
+                    + "<span> </span>"
+                    + "<img src='img/"+follow+"' class='"+imgclass+"'>"
+                    + "</br>"
+                    + "<img src='img/rating.png'>"
+                    + "<span> </span>"
+                    + "<span class='tablefont'>"+value.rating+"</span>"      
+                    + "</td>");
+                items.push("<td class='tablefont'>"+value.Ideas+"</td>");
+                items.push("<td class='tablefont'>"+value.Following+"</td>");
+                items.push("<td class='tablefont'>"+value.Followers+"</td>");
+                items.push("</tr>");
+            });
+
+            $("<tbody/>", {html: items.join("")}).appendTo("table");
+        }
 
 
-    $(".follow")
-        .mouseenter(function(e) {
-            console.log("some");
-        })
-        .mouseleave(function(e) {
-            console.log("some");
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    $(document).on("mouseenter", ".follow", function() {
+        $(this).fadeOut(150, function() {
+            var btn = $("<button class='butt followbutton'>Follow</button>");
+            $(this).replaceWith(btn);
+            $(".followbutton").show(150);
+            $(".followbutton")
+                .on("click", function() {
+                    var imgnew = $("<img />", {
+                       class: "unfollow",
+                       src: "img/remove.png",
+                    }).hide();
+                    $(this).hide(150);
+                    $(this).replaceWith(imgnew);
+                    $(".unfollow").show(150);
+                })
+                .on("mouseleave", function() {
+                    var imgback = $("<img />", {
+                       class: "follow",
+                       src: "img/add.png",
+                    }).hide();
+                    $(this).hide(150);
+                    $(this).replaceWith(imgback);
+                    $(".follow").show(150);
+                });
+            });
         });
 
+    $(document).on("mouseenter", ".unfollow", function() {
+        $(this).fadeOut(150, function() {
+            var btn = $("<button class='butt unfollowbutton'>Unfollow</button>");
+            $(this).replaceWith(btn);
+            $(".unfollowbutton").show(150);
+            $(".unfollowbutton")
+                .on("click", function() {
+                    var imgnew = $("<img />", {
+                       class: "follow",
+                       src: "img/add.png",
+                    }).hide();
+                    $(this).hide(150);
+                    $(this).replaceWith(imgnew);
+                    $(".follow").show(150);
+                })
+                .on("mouseleave", function() {
+                    var imgback = $("<img />", {
+                       class: "unfollow",
+                       src: "img/remove.png",
+                    }).hide();
+                    $(this).hide(150);
+                    $(this).replaceWith(imgback);
+                    $(".unfollow").show(150);
+                });
+            });
+        });
 
-});
-
+// });
