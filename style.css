@@ -2,8 +2,9 @@ body {
     background-color: #f7f9fa;
 }
 
-.container {
+.divmargintop {
     margin-top: 16px;
+    margin-bottom: 30px;
 }
 
 .butt {
@@ -25,6 +26,41 @@ body {
     background-color: #ae323b;
 }
 
+.side {
+    display: inline-block;
+    width: 41%;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #ddd;
+    float: left;
+}
+
+.showmore {
+    display: inline-block;
+    width: 18%;
+    float: left;
+}
+
+.show {
+    height: 30px;
+    color: #646464;
+    font-size: 10px;
+    font-weight: bold;
+    border-style: solid;
+    border-top-style: dotted;
+    background-color: #fff;
+    border: 2px 2px 2px 2px;
+    border-radius: 0px 0px 4px 4px;
+    width: 100%;
+}
+
+.hidebutton { 
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #ddd;
+    float: left;
+ }
+
 .tablefont {
     font-size: 16px;
     font-weight: bold;
@@ -36,11 +72,12 @@ body {
     font-weight: bold;
 }
 
-table {
+.table {
     margin-top: 5px;
+    margin-bottom: 0px;
     line-height: 1.42857143px;
     border-color: #ddd;
-    border-width: 1px 1px 0px 1px;
+    border-width: 2px 2px 0px 2px;
     border-style: solid;
     border-radius: 15px 15px 15px 15px;
     background-color: #fff;
